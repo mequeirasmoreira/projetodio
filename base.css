@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: 'Inter', sans-serif, 'Josefin Slab', serif, 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.menu {
+    width: 15%;
+    background-color: #f2f2f2;
+    padding: 10px 20px 0px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+header, footer {
+    background-color: #3F89A6;
+    min-height: 150px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+}
+
+.content {
+    min-height: 300px;
+    padding: 20px;
+}
+
+.social-media {
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-media img {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #265e60;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    margin-top: 10px;
+}
+
+/* Tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #2C5F73;
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Formulário */
+.contato-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Inputs */
+.input-field, .textarea-field {
+    width: 760px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato {
+    margin-top: 40px;
+}
+
+/* Botão */
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+}
+
+#contato button:hover {
+    background-color: #0056b3;
+}
