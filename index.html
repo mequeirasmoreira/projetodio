@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ultra Saúde</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="teste.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#">Página Principal</a></li>
+					<li><a href="#sobre">Sobre a clínica</a></li>
+					<li><a href="#horarios">Horário de Atendimento</a></li>
+					<li><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="main">
+			<header>
+					<img src="/img/logo.png" alt="Logotipo Ultra Saúde">
+					<h1>Ultra Saúde</h1>
+			</header>
+			<div class="content">
+				<div id="sobre">
+					<h2>Sobre a Clínica</h2>
+					<img src="/img/clinica.png" alt="Foto do interior da clínica">
+					<p>Na Clínica Ultra Saúde, a sua saúde e bem-estar são nossa maior prioridade. Estamos comprometidos
+						em fornecer cuidados médicos excepcionais e serviços de saúde de alta qualidade para atender às
+						suas necessidades. Com uma equipe de profissionais médicos altamente qualificados e dedicados,
+						oferecemos uma gama abrangente de serviços para garantir que você receba o atendimento que
+						merece.</p>
+					<p>Nossa missão é <strong>promover a saúde e a qualidade de vida de nossos pacientes</strong>,
+						sempre com compaixão,
+						empatia e excelência médica. Trabalhamos incansavelmente para garantir que cada visita à
+						Clínica
+						Ultra Saúde seja uma experiência positiva e que você se sinta bem cuidado em todos os
+						momentos.</p>
+				</div>
+				<div id="horarios">
+					<h2>Horários e Preços</h2>
+					<img src="/img/doutora.png" alt="Foto doutora">
+					<p>Na Clínica Ultra Saúde, estamos comprometidos em fornecer cuidados médicos excepcionais e
+						serviços de
+						saúde de alta qualidade para atender às necessidades da comunidade. Nossos profissionais
+						altamente
+						qualificados e dedicados estão aqui para cuidar da sua saúde e bem-estar. Oferecemos uma
+						variedade
+						de serviços médicos especializados, incluindo:</p>
+					<table align="center">
+						<caption>Horários e Preços</caption>
+						<thead> <!--Titulos-->
+							<th>Serviços</th>
+							<th rowspan="2">Segunda a Sexta</th>
+							<th rowspan="2">Sábados</th>
+							<th rowspan="2">Feriados</th>
+						</thead>
+						<tbody> <!--Corpo-->
+							<tr> <!--Linha 1-->
+								<td>Clínica</td>
+								<td>R$100 08h - 19h</td>
+								<td>R$120 08h - 14h</td>
+								<td>R$120 08h - 14h</td>
+							</tr>
+							<tr> <!--Linha 2-->
+								<td>Psicologia</td>
+								<td>R$ 120 08h - 19h</td>
+								<td>R$ 140 08h - 14h</td>
+								<td>R$ 160 08h - 14h</td>
+							</tr>
+							<tr> <!--Linha 3-->
+								<td>Pediatria</td>
+								<td>R$90 08h - 19h</td>
+								<td>R$100 08h - 18h</td>
+								<td>-</td>
+							</tr>
+							<tr> <!--Linha 4-->
+								<td>Oftalmologia</td>
+								<td>R$ 150 08h - 19h</td>
+								<td>R$160 08h - 18h</td>
+								<td>-</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div id="contato">
+					<form action="" class="contato-form">
+						<fieldset>
+							<label for="nome">Nome:</label>
+							<input type="text" id="nome" class="input-field">
+							<label for="email">E-mail:</label>
+							<input type="email" id="email" class="input-field">
+							<label for="assunto">Assunto:</label>
+							<input type="text" id="assunto" class="input-field">
+							<label for="mensagem">Mensagem</label>
+							<textarea name="mensagem" id="mensagem" cols="30" rows="10" class="textarea-field"></textarea>
+						</fieldset>
+						<button type="submit" class="submit-button">Enviar</button>
+					</form>
+				</div>
+			</div>
+			<footer>
+				<p>© 2023 Clínica Ultra Saúde. Todos os direitos reservados.</p>
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>
